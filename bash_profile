@@ -2,6 +2,7 @@ export PS1='> '
 
 shopt -s expand_aliases
 
+alias vim="/Applications/nvim-osx64/bin/nvim"
 alias v=vim
 alias s="cd ~/fin-server"
 alias c="cd ~/fin-web-client"
