@@ -1,0 +1,23 @@
+[user]
+    name = cooper-sloan
+    email = cooper@isloan.net
+[core]
+    excludesfile = ~/.gitignore
+[credential]
+    helper = osxkeychain
+[color]
+    branch = auto
+    diff = auto
+    interactive = auto
+    status = auto
+    grep = auto
+[alias]
+    lol = log --graph --oneline --decorate --color --all
+    co = checkout
+    pb = pull
+    p = pull
+    br = branch
+    st = status
+    rect = commit --amend --no-edit
+[push]
+    default = simple
