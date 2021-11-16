@@ -1,5 +1,5 @@
 # brofile
 ```bash
-git clone https://cooper-sloan/brofile ~/brofile
+git clone https://github.com/cooper-sloan/brofile ~/brofile
 ln ~/brofile/bash_profile ~/.bash_profile
 ```
