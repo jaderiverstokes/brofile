@@ -1,5 +1,5 @@
 # calm
-touch .hushlogin
+touch ~/.hushlogin
 export PS1='> '
 export BASH_SILENCE_DEPRECATION_WARNING=1
 

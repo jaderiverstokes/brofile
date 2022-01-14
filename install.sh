@@ -1,7 +1,8 @@
 # nuke
+cd ~
 rm -rf ~/brofile
 rm -rf ~/.vim
-git clone https://github.com/jaderiverstokes/brofile ~/brofile
+git clone https://github.com/jaderiverstokes/main/brofile ~/brofile
 
 # dotfiles
 ln -f ~/brofile/bash_profile ~/.bash_profile
