@@ -4,7 +4,7 @@
 git clone https://github.com/jaderiverstokes/brofile ~/brofile
 ln -f ~/brofile/bash_profile ~/.bash_profile
 ln -f ~/brofile/gitconfig    ~/.gitconfig
-ln -f ~/brofile/tmux.conf.   ~/.tmux.conf
+ln -f ~/brofile/tmux.conf    ~/.tmux.conf
 
 # homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
