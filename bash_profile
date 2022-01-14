@@ -37,3 +37,4 @@ export PATH=${PATH}:/usr/local/bin
 export FZF_DEFAULT_COMMAND='ag -g ""'
 
 tmux attach &> /dev/null
+eval "$(/opt/homebrew/bin/brew shellenv)"
