@@ -28,9 +28,12 @@ alias s="cd ~/fin-server"
 alias c="cd ~/fin-web-client"
 alias g="git"
 alias skrr="exit"
+alias src="echo 'source ~/.bash_profile';source ~/.bash_profile"
+alias vrc="echo 'vim ~/.vimrc';vim ~/.vimrc"
 alias profile="vim ~/.bash_profile"
 alias ll="ls -lart"
 alias com="git add .;git commit --no-verify -m"
+alias steam="git add .;git commit --no-verify -m 'does dat ting';g push;"
 alias md="git checkout develop; git pull; git checkout -; git merge develop; yarn;"
 
 export PATH=${PATH}:~/go/bin
