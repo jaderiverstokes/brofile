@@ -5,7 +5,7 @@ ln ~/brofile/bash_profile ~/.bash_profile
 ln ~/brofile/gitconfig ~/.gitconfig
 ln ~/brofile/tmux.conf ~/.tmux.conf
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/jrs/.bash_profile
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.bash_profile
 eval "$(/opt/homebrew/bin/brew shellenv)"
 brew install neovim
 brew install yarn
