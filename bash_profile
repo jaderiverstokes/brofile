@@ -35,3 +35,5 @@ export PATH=${PATH}:~/go/bin
 export PATH=${PATH}:/usr/local/bin
 
 export FZF_DEFAULT_COMMAND='ag -g ""'
+
+tmux attach &> /dev/null
