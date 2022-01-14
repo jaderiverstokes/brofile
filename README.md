@@ -1,5 +1,8 @@
 # just for the sisters ;)
 ```bash
+# nuke
+rm -rf ~/brofile ~/.vim
+
 # dotfiles
 git clone https://github.com/jaderiverstokes/brofile ~/brofile
 ln -f ~/brofile/bash_profile ~/.bash_profile
