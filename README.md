@@ -3,9 +3,10 @@
 # nuke
 rm -rf ~/brofile
 rm -rf ~/.vim
+git clone https://github.com/jaderiverstokes/brofile ~/brofile
+
 
 # dotfiles
-git clone https://github.com/jaderiverstokes/brofile ~/brofile
 ln -f ~/brofile/bash_profile ~/.bash_profile
 ln -f ~/brofile/gitconfig    ~/.gitconfig
 ln -f ~/brofile/tmux.conf    ~/.tmux.conf
