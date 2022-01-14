@@ -16,6 +16,7 @@ yes | /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/inst
 echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.bash_profile
 eval "$(/opt/homebrew/bin/brew shellenv)"
 brew install yarn
+brew install tmux
 
 # vim
 git clone https://github.com/cooper-sloan/vimjob ~/.vim
