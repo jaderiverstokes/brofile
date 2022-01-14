@@ -1,7 +1,8 @@
 # just for the sisters ;)
 ```bash
 # nuke
-rm -rf ~/brofile ~/.vim
+rm -rf ~/brofile
+rm -rf ~/.vim
 
 # dotfiles
 git clone https://github.com/jaderiverstokes/brofile ~/brofile
