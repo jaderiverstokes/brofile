@@ -30,6 +30,8 @@ alias g="git"
 alias skrr="exit"
 alias profile="vim ~/.bash_profile"
 alias ll="ls -lart"
+alias com="git add .;git commit --no-verify -m"
+alias md="git checkout develop; git pull; git checkout -; git merge develop; yarn;"
 
 export PATH=${PATH}:~/go/bin
 export PATH=${PATH}:/usr/local/bin
