@@ -1,4 +1,4 @@
-# brofile
+# just for the sister ;)
 ```bash
 git clone https://github.com/jaderiverstokes/brofile ~/brofile
 ln ~/brofile/bash_profile ~/.bash_profile
