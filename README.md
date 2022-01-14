@@ -25,7 +25,9 @@ brew install neovim
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 nvim --headless +PlugInstall +qall
-pushd ~/.vim/plugged/coc.nvim; yarn install
+pushd ~/.vim/plugged/coc.nvim
+yarn install
+popd
 
 # ag
 brew install the_silver_searcher
