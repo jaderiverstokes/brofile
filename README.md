@@ -2,9 +2,9 @@
 ```bash
 # dotfiles
 git clone https://github.com/jaderiverstokes/brofile ~/brofile
-ln ~/brofile/bash_profile ~/.bash_profile
-ln ~/brofile/gitconfig ~/.gitconfig
-ln ~/brofile/tmux.conf ~/.tmux.conf
+ln -f ~/brofile/bash_profile ~/.bash_profile
+ln -f ~/brofile/gitconfig    ~/.gitconfig
+ln -f ~/brofile/tmux.conf.   ~/.tmux.conf
 
 # homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -15,8 +15,7 @@ brew install yarn
 # vim
 brew install neovim
 nvim --headless +PlugInstall +qall
-cd ~/.vim/plugged/coc.nvim
-yarn install
+pushd ~/.vim/plugged/coc.nvim; yarn install
 
 # ag
 brew install the_silver_searcher
