@@ -1,7 +1,6 @@
 export PS1='> '
 
 shopt -s expand_aliases
-source ~/.bash_env
 
 alias vim="nvim"
 alias v=vim
@@ -22,7 +21,7 @@ bind '"kj":vi-movement-mode'
 bind '"kk":vi-movement-mode'
 
 
-export PATH=${PATH}:/Users/Cooper/go/bin
+export PATH=${PATH}:~/go/bin
 export PATH=${PATH}:/usr/local/bin
 
 export BASH_SILENCE_DEPRECATION_WARNING=1
@@ -37,9 +36,9 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 export GOOGLE_APPLICATION_CREDENTIALS='/Users/Cooper/finmix_dev_cred.json'
 
 # The next line updates PATH for the Google Cloud SDK.
-if [ -f '/Users/cooper/Downloads/google-cloud-sdk/path.bash.inc' ]; then . '/Users/cooper/Downloads/google-cloud-sdk/path.bash.inc'; fi
+if [ -f '~/Downloads/google-cloud-sdk/path.bash.inc' ]; then . '~/Downloads/google-cloud-sdk/path.bash.inc'; fi
 
 # The next line enables shell command completion for gcloud.
-if [ -f '/Users/cooper/Downloads/google-cloud-sdk/completion.bash.inc' ]; then . '/Users/cooper/Downloads/google-cloud-sdk/completion.bash.inc'; fi
+if [ -f '~/Downloads/google-cloud-sdk/completion.bash.inc' ]; then . '~/Downloads/google-cloud-sdk/completion.bash.inc'; fi
 
 export FZF_DEFAULT_COMMAND='ag -g ""'
