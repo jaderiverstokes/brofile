@@ -2,6 +2,7 @@
 cd ~
 rm -rf ~/brofile
 rm -rf ~/.vim
+rm ~/.vimrc
 git clone https://github.com/jaderiverstokes/brofile.git ~/brofile
 
 # dotfiles
