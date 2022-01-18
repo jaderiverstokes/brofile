@@ -2,7 +2,7 @@
 cd ~
 rm -rf ~/brofile
 rm -rf ~/.vim
-git clone https://github.com/jaderiverstokes/brofile/main ~/brofile
+git clone https://github.com/jaderiverstokes/brofile.git ~/brofile
 
 # dotfiles
 ln -f ~/brofile/bash_profile ~/.bash_profile
