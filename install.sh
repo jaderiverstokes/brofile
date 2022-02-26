@@ -1,8 +1,8 @@
 # nuke
 cd ~
-rm -rf ~/brofile
-rm -rf ~/.vim
-rm ~/.vimrc
+sudo rm -rf ~/brofile
+sudo rm -rf ~/.vim
+sudo rm ~/.vimrc
 git clone https://github.com/jaderiverstokes/brofile.git ~/brofile
 
 # dotfiles
