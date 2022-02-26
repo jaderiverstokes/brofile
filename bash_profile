@@ -35,6 +35,7 @@ alias ll="ls -lart"
 alias com="git add .;git commit --no-verify -m"
 alias steam="git add .;git commit --no-verify -m 'does dat ting';g push;"
 alias md="git checkout develop; git pull; git checkout -; git merge develop; yarn;"
+alias vim="vim -S ~/.vimrc"
 
 export PATH=${PATH}:~/go/bin
 export PATH=${PATH}:/usr/local/bin
