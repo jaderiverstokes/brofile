@@ -4,6 +4,8 @@ sudo rm -rf ~/brofile
 sudo rm -rf ~/.vim
 sudo rm ~/.vimrc
 git clone https://github.com/jaderiverstokes/brofile.git ~/brofile
+git clone https://github.com/jaderiverstokes/vimjob ~/.vim
+
 
 # dotfiles
 ln -f ~/brofile/bash_profile ~/.bash_profile
