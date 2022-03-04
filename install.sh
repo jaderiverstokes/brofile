@@ -43,3 +43,7 @@ source ~/.bash_profile
 nvm install node
 nvm install-latest-npm
 
+# xcode
+xcode-select --install
+sudo xcodebuild -license accept
+
