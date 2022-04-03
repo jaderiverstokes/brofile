@@ -3,8 +3,8 @@ cd ~
 sudo rm -rf ~/brofile
 sudo rm -rf ~/.vim
 sudo rm ~/.vimrc
-git clone https://github.com/jaderiverstokes/brofile.git ~/brofile
-git clone https://github.com/jaderiverstokes/vimjob ~/.vim
+git clone git@github.com:jaderiverstokes/brofile.git ~/brofile
+git clone git@github.com:jaderiverstokes/vimjob.git ~/.vim
 
 
 # dotfiles
@@ -25,6 +25,10 @@ ln ~/.vim/vimrc ~/.vimrc
 brew install neovim
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+touch ~/.config/nvim/init.vim
+echo 'set runtimepath^=~/.vim runtimepath+=~/.vim/after' >> ~/.config/nvim/init.vim
+echo 'let &packpath=&runtimepath' >> ~/.config/nvim/init.vim
+echo 'source ~/.vimrc' >> ~/.config/nvim/init.vim
 nvim --headless +PlugInstall +qall
 pushd ~/.vim/plugged/coc.nvim
 yarn install
@@ -39,3 +43,10 @@ source ~/.bash_profile
 nvm install node
 nvm install-latest-npm
 
+# xcode
+xcode-select --install
+sudo xcode-select -s /Applications/Xcode.app/Contents/Developer
+sudo xcodebuild -license accept
+
+# brofile in effect
+source ~./bash_profile
