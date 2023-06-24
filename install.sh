@@ -18,7 +18,11 @@ echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.bash_profile
 eval "$(/opt/homebrew/bin/brew shellenv)"
 brew install yarn
 brew install tmux
+brew install google-cloud-sdk
 brew install --cask spotify
+brew install --cask firefox
+
+
 
 
 # vim
