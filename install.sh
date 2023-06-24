@@ -18,6 +18,8 @@ echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.bash_profile
 eval "$(/opt/homebrew/bin/brew shellenv)"
 brew install yarn
 brew install tmux
+brew install --cask spotify
+
 
 # vim
 git clone https://github.com/cooper-sloan/vimjob ~/.vim
