@@ -21,9 +21,7 @@ brew install tmux
 brew install google-cloud-sdk
 brew install --cask spotify
 brew install --cask firefox
-
-
-
+brew install --cask google-chrome
 
 # vim
 git clone https://github.com/cooper-sloan/vimjob ~/.vim
