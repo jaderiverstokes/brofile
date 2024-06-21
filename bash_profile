@@ -42,7 +42,10 @@ export PATH=${PATH}:~/go/bin
 export PATH=${PATH}:/usr/local/bin
 
 export FZF_DEFAULT_COMMAND='ag -g ""'
+export HOMEBREW_NO_AUTO_UPDATE=1
+
 
 tmux attach &> /dev/null
 eval "$(/opt/homebrew/bin/brew shellenv)"
 eval "$(/opt/homebrew/bin/brew shellenv)"
+
