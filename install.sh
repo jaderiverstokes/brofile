@@ -3,9 +3,11 @@ cd ~
 sudo rm -rf ~/brofile
 sudo rm -rf ~/.vim
 sudo rm ~/.vimrc
-git clone git@github.com:jaderiverstokes/brofile.git ~/brofile
-git clone git@github.com:jaderiverstokes/vimjob.git ~/.vim
+git clone https://github.com/jaderiverstokes/brofile.git ~/brofile
+git clone https://github.com/jaderiverstokes/vimjob.git ~/.vim
 
+# use bash
+chsh -s /bin/bash
 
 # dotfiles
 ln -f ~/brofile/bash_profile ~/.bash_profile
